@@ -1,2 +1,1 @@
-redis==3.3.8
-boto3==1.9.220
+pyinstrument==3.1.3
