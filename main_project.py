@@ -7,10 +7,11 @@
 import json
 import config
 import traceback
+from logging_pkg import log_rotating 
 
 def main():
     try:
-        # some code
+        logs = log_rotating.init_log("log_name")
     except Exception as ex:
         # handle exception
         print(traceback.format_exc())
