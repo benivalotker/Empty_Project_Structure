@@ -1,9 +1,8 @@
-import unittest
+'''
+    run the test with  - "pytest --html=report.html --self-contained-html test_file_name"
+'''
+import pytest
 
 
-class UnitTest(unittest.TestCase):
-    # add some test methods
-
-
-if __name__ == '__main__':
-    unittest.main()
+def test_func():
+	# add test code
